@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">  <!-- Add this line -->
 
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
     <application
         android:label="floating_video_plugin_example"
         android:name="${applicationName}"

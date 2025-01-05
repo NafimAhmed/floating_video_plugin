@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: ElevatedButton(
             onPressed: () {
-              FloatingVideoPlugin.startFloatingVideo('https://example.com/video.mp4');
+              FloatingVideoPlugin.startFloatingVideo('https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4');
             },
             child: Text('Launch Floating Video'),
           ),
