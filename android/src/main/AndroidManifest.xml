@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.example.floating_video_plugin">
+
+
+
+    <activity
+        android:name=".MainActivity"
+        android:resizeableActivity="true"
+        android:supportsPictureInPicture="true">
+    </activity>
+
+</manifest>
